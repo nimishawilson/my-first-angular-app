@@ -1,3 +1,4 @@
+<input type='text' [(ngModel)]="serverName">
 <button class="btn btn-success" [disabled]="!allowNewServers" (click)="onCreateServer()">  button </button>
 <p [innerText]="allowNewServers"> </p>
 <p class="red"> {{ serverCreationStatus }} </p>
