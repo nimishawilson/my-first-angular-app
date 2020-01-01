@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class ServerComponent {
 
   serverId: number = 10;
-  // serverStatus: string = 'online';
+ serverStatus: string = 'online';
   vehicle: string = 'car';
   color: string = 'red';
 
